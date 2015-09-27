@@ -1,0 +1,425 @@
+
+
+#verlauf {
+	z-index: 2;
+	width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  position:fixed;
+	background: -webkit-linear-gradient(white 75%, transparent); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white 75%, transparent); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white 75%, transparent); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white 75%, transparent); /* Standard syntax (must be last) */
+}
+
+#auge {
+	z-index: 3;
+	width= 20%;
+	height: auto;
+	position: left;
+}
+
+@keyframes auge
+{
+    from {left:600px;}
+    to {left:5px;}
+}
+
+#anime_auge {
+		z-index: 3;
+    position: fixed;
+    animation:auge 2s;
+    -webkit-animation:auge 2s ; /* Safari and Chrome */
+}
+
+#portfolio {
+	z-index: 4;
+	font-family: courier;
+	font-size: 220px;
+	font-weight: bold;
+	color: #212226;
+	position: absolute;
+	position: fixed;
+	left: 35%;
+	top: 100px;
+	}
+
+@keyframes headline
+{
+    from {left:600px;}
+    to {left:200px;}
+}
+#portfolio {
+		animation: headline 2s ;
+		 -webkit-animation:headline 2s ; /* Safari and Chrome */
+}
+
+
+#navigation {
+	z-index: 4;
+	position: absolute;
+	position: fixed;
+	left: 0px;
+	top: 500px;
+}
+
+.menu {
+	margin: 30px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+a {
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #394247;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
+	-webkit-transition: text-shadow .25s ease-in-out;
+	-moz-transition: text-shadow .25s ease-in-out;
+	-o-transition: text-shadow .25s ease-in-out;
+	transition: text-shadow .25s ease-in-out;
+}
+
+a:hover {
+	color: #789ccc;
+}
+
+
+
+a.menu {
+	font-size: 80px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #394247;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
+	-webkit-transition: text-shadow .25s ease-in-out;
+	-moz-transition: text-shadow .25s ease-in-out;
+	-o-transition: text-shadow .25s ease-in-out;
+	transition: text-shadow .25s ease-in-out;
+}
+
+a.menu:hover {
+	color: #789ccc;
+}
+
+a.menu:hover {
+			-webkit-stroke-width: 20.3px;
+      text-shadow: 1px 0px 7px #cefefe;
+			font-size: 90px;
+}
+
+#space2 {
+	height: 800px;
+}
+
+.head_works {
+	z-index: 1;
+	position: relative;
+	clear: left;
+	left: 120px;
+	font-family: courier;
+	font-weight: bold;
+	font-size: 100px;
+	color: #5b6767;
+}
+
+#talking_img {
+	z-index: 1;
+	position: relative;
+	left: 120px;
+	width: 240px;
+	height: 240px;
+	box-shadow: 10px 10px 5px grey;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+#talking_img:hover {
+	width: 300px;
+	height: 300px;
+}
+
+.img_float {
+	float: left;
+}
+
+.anthropology_beschreibung {
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	line-height: 70px;
+	color: #394247;
+	float: left;
+	margin-left: 150px;
+	width: 300px;
+	height: 250px;
+}
+
+
+
+.space3 {
+	height: 50px;
+	clear: left;
+}
+
+
+#video {
+	z-index: 1;
+	position: relative;
+	float: left;
+	left: 80px;
+	width: 448px;
+	height: 252px;
+	margin-left: 50px;
+	box-shadow: 10px 10px 5px grey;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+#video:hover {
+	width: 560px;
+	height: 315px;
+}
+
+#video_beschreibung {
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	line-height: 70px;
+	color: #394247;
+	clear: left;
+	margin-left: 150px;
+	width: 560px;
+	height: 50px;
+}
+
+
+
+#portfolio_img {
+	z-index: 1;
+	position: relative;
+	float: left;
+	left: 120px;
+	width: 360px;
+	height: 326px;
+	box-shadow: 10px 10px 5px grey;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+	
+#portfolio_img:hover {
+	width: 450px;
+	height: 407px;
+}
+
+#portfolio_text {
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	line-height: 70px;
+	color: #394247;
+	float: left;
+	margin-left: 150px;
+	width: 300px;
+	height: 250px;
+}
+
+
+.cd-cover_img {
+	z-index: 1;
+	position: relative;
+	float: left;
+	left: 80px;
+	width: 240px;
+	height: 240px;
+	margin-left: 50px;
+	box-shadow: 10px 10px 5px grey;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.cd-cover_img:hover {
+	width: 300px;
+	height: 300px;
+}
+
+.flyer_img {
+	z-index: 1;
+	position: relative;
+	float: left;
+	left: 80px;
+	width: 237px;
+	height: 328px;
+	margin-left: 50px;
+	box-shadow: 10px 10px 5px grey;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.flyer_img:hover {
+	width: 296px;
+	height: 410px;
+}
+
+
+#soundcloud {
+	z-index: 1;
+	position: relative;
+	float: left;
+	left: 80px;
+	width: 280px;
+	height: 280px;
+	margin-left: 50px;
+	box-shadow: 10px 10px 5px grey;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+#soundcloud:hover {
+	width: 350px;
+	height: 350px;
+}
+
+
+/*index:*/
+
+#foto {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: 200px;
+	top: 300px;
+}
+
+#welcome {
+	position: absolute;
+	left: 200px;
+	top: 530px;
+	width: 200px;
+	height: 200px;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: #394247;
+}
+
+
+/*skills*/
+
+.skills {
+	position: absolute;
+	left: 20px;
+	top: 300px;
+	width: 1000px;
+	height: 400px;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: #394247;
+}
+
+/*kontakt*/
+
+#kontaktdaten {
+	position: absolute;
+	left: 150px;
+	top: 300px;
+	width: 300px;
+	height: 400px;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: #394247;
+}
+
+.mail {
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	color: #394247;
+	-webkit-transition: color .25s ease-in-out;
+	-moz-transition: color .25s ease-in-out;
+	-o-transition: color .25s ease-in-out;
+	transition: color .25s ease-in-out;
+	-webkit-transition: text-shadow .5s ease-in-out;
+	-moz-transition: text-shadow .5s ease-in-out;
+	-o-transition: text-shadow .5s ease-in-out;
+	transition: text-shadow .5s ease-in-out;
+}
+
+/*impressum*/
+
+#impressum1 {
+		position: absolute;
+	left: 150px;
+	top: 300px;
+	width: 300px;
+	height: 400px;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	color: #394247;
+}
+
+#copyright {
+	position: absolute;
+	left: 500px;
+	top: 300px;
+	width: 200px;
+	height: 400px;
+	font-size: 20px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", sans-serif;
+	font-weight: 300;
+	text-transform: none;
+	text-decoration: none;
+	text-align: justify;
+	line-height: 35px;
+	color: #394247;
+}
+	
